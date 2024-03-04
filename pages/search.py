@@ -9,8 +9,8 @@ from selenium.webdriver.common.keys import Keys
 class DuckDuckGoSearchPage:
 
 
-    SEARCH_INPUT = (By.ID, 'searchbox_input')
-    URL = 'https://www.duckduckgo.com'
+    SEARCH_INPUT = (By.ID, 'APjFqb')
+    URL = 'https://www.google.com'
 
     def __init__(self, browser):
         self.browser = browser
